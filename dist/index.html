@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bannerite</title>
+    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Comfortaa"
+    />
+    <script 
+    id="language_script" 
+    data-languages="en,pt" 
+    data-debug="0" 
+    src="/src/language/language.js">
+ </script>
+<!-- <link rel="stylesheet" href="language/language.css"> -->
+    <style>
+      .active {
+        display: block;
+      }
+
+    </style>
+  <script type="module" crossorigin src="/assets/index.f8301d9c.js"></script>
+  <link rel="stylesheet" href="/assets/index.63c155e5.css">
+</head>
+  <body class="p-0 m-0 font-comfortaa">
+    <!-- used tutorial nav from https://medium.com/@Mrsimi/responsive-navbar-in-tailwindcss-the-fast-lane-cce11fdf78f7 -->
+    <div class="container max-w-7xl mx-auto bg-white p-5">
+      <nav class="md:flex flex-row md:justify-between">
+        <div class="flex flex-row justify-between py-4 md:py-0">
+          <object title="This is the logo">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+        </object>
+        <h1 class="md:hidden">web site design</h1>
+          <p id="hamburgerbtn" class="md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </p>
+        </div>
+        <ul class="hidden md:flex md:flex-row items-center md:mx-auto" id="mobileMenu">
+          <li class="pr-5"><a href="#how_we_work"><span lang="en">how we work</span><span lang="pt">à nossa maneira</span></a></li>
+          <li class="pr-5"><a href="#"><span lang="en">porfolio</span><span lang="pt">portfólio</span></a></li>
+          <li class="pr-5"><a href="#"><span lang="en">about</span><span lang="pt">sobre nós</span></a></li>
+          <li class="pr-5"><a href="#"><span lang="en">contact</span><span lang="pt">contacto</span></a></li>
+        </ul>
+        <ul class="md:flex">
+          <li class="hidden text-right md:flex md:flex-row items-center md:mx-auto" id="mobileMenuLanguage">
+            <language class="-mx-1 text-xs" data-type="select"></language>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Profile Card -->
+    <div
+      class="py-32"
+      style="background-color: aquamarine; background-size: 150vmax;"
+    >
+      <div class="container max-w-7xl mx-auto">
+        <div class="mx-6 p-16 bg-blue-400 rounded-xl text-white shadow-xl">
+          <h1 class="text-center text-3xl lg:text-5xl">
+            online presence partner in Portugal
+          </h1>
+          <h1 class="text-center text-3xl lg:text-5xl">we design and host web sites</h1>
+          <h1 class="text-center text-lg lg:text-3xl my-4">
+            we speak:<br />
+            Portuguese, English, Dutch, French
+          </h1>
+        </div>
+
+        <div class="container flex max-w-7xl text-white py-20">
+          <span class="mx-auto text-4xl">Our Packs</span>
+        </div>
+
+        <div class="mx-auto flex flex-col lg:flex-row max-w-md lg:max-w-7xl lg:mx-6 justify-between lg:space-x-3">
+          <div
+            class="flex flex-col mb-6 bg-blue-400 rounded-lg text-white shadow-xl"
+          >
+            <div class="text-center text-base py-2">Wordpress Web Site</div>
+            <div class="text-center text-2xl py-2 bg-blue-300">
+              €770<span class="text-xs"> excl. IVA</span>
+            </div>
+            <div class="text-center py-2">Web site design</div>
+            <div class="text-center p-2 bg-blue-300">
+              Pack Hosting first year included
+            </div>
+            <div class="text-center py-2">Themed framework</div>
+            <div class="text-center py-2 bg-blue-300">SEO friendly design</div>
+            <div class="text-center text-base py-2">
+              Cloudflare configuration
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col mb-6 bg-blue-400 rounded-lg text-white shadow-xl"
+          >
+            <div class="text-center text-base py-2">Wordpress Web Site</div>
+            <div class="text-center text-2xl py-2 bg-blue-300">
+              €770<span class="text-xs"> excl. IVA</span>
+            </div>
+            <div class="text-center py-2">Web site design</div>
+            <div class="text-center p-2 bg-blue-300">
+              Pack Hosting first year included
+            </div>
+            <div class="text-center py-2">Themed framework</div>
+            <div class="text-center py-2 bg-blue-300">SEO friendly design</div>
+          </div>
+          <div
+            class="flex flex-col mb-6 bg-blue-400 rounded-lg text-white shadow-xl"
+          >
+            <div class="text-center text-base py-2">Wordpress Web Site</div>
+            <div class="text-center text-2xl py-2 bg-blue-300">
+              €770<span class="text-xs"> excl. IVA</span>
+            </div>
+            <div class="text-center py-2">Web site design</div>
+            <div class="text-center p-2 bg-blue-300">
+              Pack Hosting first year included
+            </div>
+            <div class="text-center py-2">Themed framework</div>
+            <div class="text-center py-2 bg-blue-300">SEO friendly design</div>
+          </div>
+          <div
+            class="flex flex-col mb-6 bg-blue-400 rounded-lg text-white shadow-xl"
+          >
+            <div class="text-center text-base py-2">Wordpress Web Site</div>
+            <div class="text-center text-2xl py-2 bg-blue-300">
+              €770<span class="text-xs"> excl. IVA</span>
+            </div>
+            <div class="text-center py-2">Web site design</div>
+            <div class="text-center p-2 bg-blue-300">
+              Pack Hosting first year included
+            </div>
+            <div class="text-center py-2">Themed framework</div>
+            <div class="text-center py-2 bg-blue-300">SEO friendly design</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Profile Card -->
+    <div class="lg:grid lg:grid-cols-2 text-center max-h-full">
+      <div
+        class="text-lg hidden lg:flex lg:col-span-1 py-2"
+        style="
+          background-image: url('/src/img/Gonzo-1500_coloredbgr.jpg');
+          background-repeat: no-repat;
+          background-position-x: left;
+          background-position-y: top;
+          background-attachment: scroll;
+          background-size: 800px;
+        "
+      ></div>
+      <div class="bg-white py-16 px-10">
+        <h1 class="text-3xl text-purple-500 p-6">
+          Let’s start a personal relationship
+        </h1>
+        <p class="text-lg text-blue-600">
+          We offer web design and managed WordPress hosting in Portugal.
+        </p>
+        <p class="p-6 text-blue-600">
+          WEBpacks.pt is run by Gonçalo (Gonzo). Descendant from Dutch and
+          Portuguese parents. Having lived, studied, worked in The Netherlands,
+          Portugal, Switzerland and England he considers himself a true European
+          polyglot.
+        </p>
+        <p class="p-6 text-blue-600">
+          Gonzo has more than 25 years experience in internet and web
+          development. He is the co-founder of a digital design studio
+          specialising in the production of digital creative assets for large
+          media companies that has been serving it’s international clientele for
+          more then two decades.
+        </p>
+        <p class="p-6 text-blue-600">
+          He believes that a main recquisite of any organisation delivering
+          online services is having excellent customer service. This starts
+          right of-the-bat with understanding who the client is, what the client
+          needs and expects. So feel free to give Gonzo a call or send him a
+          message to get this relationship started!
+        </p>
+        <h1 class="text-3xl text-purple-500 p-6"><a id="how_we_work">How we work</a></h1>
+        <p class="text-lg text-blue-600">
+          WEBpacks.pt uses its in-house knowledge togther with professional
+          partnerships to offer its clients the best service possible, be it
+          web-design, hosting or (social-media) marketing.
+        </p>
+      </div>
+    </div>
+    <script>
+      let hamburger = document.getElementById("hamburgerbtn");
+
+      let mobileMenu = document.getElementById("mobileMenu");
+
+      let mobileMenuLanguage = document.getElementById("mobileMenuLanguage");
+
+
+      hamburger.addEventListener("click", function () {
+        mobileMenu.classList.toggle("active");
+        mobileMenuLanguage.classList.toggle("active");
+      });
+// below added by Gonzo on his own inititive: to close the menu when clicked on a menu item.
+//      mobileMenu.addEventListener("click", function () {
+// add if statement to check that the active class is indeed present.
+//        if (mobileMenu.classList.contains('active')) 
+//        mobileMenu.classList.toggle("active");
+//      });
+
+    </script>
+  </body>
+</html>
