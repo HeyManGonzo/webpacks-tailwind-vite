@@ -201,24 +201,13 @@
       </div>
     </div>
     <script>
-      var hamburger = document.getElementById("hamburgerbtn");
-
-  var mobileMenu = document.getElementById("mobileMenu");
-
-      var mobileMenuLanguage = document.getElementById("mobileMenuLanguage");
-
-
+      let hamburger = document.getElementById("hamburgerbtn");
+      let mobileMenu = document.getElementById("mobileMenu");
+      let mobileMenuLanguage = document.getElementById("mobileMenuLanguage");
       hamburger.addEventListener("click", function () {
         mobileMenu.classList.toggle("active");
         mobileMenuLanguage.classList.toggle("active");
       });
-// below added by Gonzo on his own inititive: to close the menu when clicked on a menu item.
-//      mobileMenu.addEventListener("click", function () {
-// add if statement to check that the active class is indeed present.
-//        if (mobileMenu.classList.contains('active')) 
-//        mobileMenu.classList.toggle("active");
-//      });
-
     </script>
   </body>
 </html>
