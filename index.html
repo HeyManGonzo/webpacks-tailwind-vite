@@ -34,8 +34,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
           </svg>
         </object>
-        <h1 class="md:hidden">web site <a id="hamburgerbtn">design</a></h1>
-          <p class="md:hidden">
+        <h1 class="md:hidden">web site design</h1>
+          <p class="md:hidden" id="hamburgerbtn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -67,6 +67,9 @@
     </div>
 
     <!-- Profile Card -->
+    <button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
     <div
       class="py-32"
       style="background-color: aquamarine; background-size: 150vmax;"
@@ -208,5 +211,10 @@
         mobileMenuLanguage.classList.toggle("active");
       });
     </script>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello World";
+      }
+      </script>
   </body>
 </html>
