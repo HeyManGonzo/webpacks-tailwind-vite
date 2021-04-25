@@ -67,9 +67,6 @@
     </div>
 
     <!-- Profile Card -->
-    <button onclick="myFunction()">Click me</button>
-
-<p id="demo"></p>
     <div
       class="py-32"
       style="background-color: aquamarine; background-size: 150vmax;"
@@ -206,7 +203,7 @@
       let hamburger = document.getElementById("hamburgerbtn");
       let mobileMenu = document.getElementById("mobileMenu");
       let mobileMenuLanguage = document.getElementById("mobileMenuLanguage");
-      hamburger.addEventListener("click", function () {
+      document.getElementById("hamburgerbtn").addEventListener("click", function () {
         mobileMenu.classList.toggle("active");
         mobileMenuLanguage.classList.toggle("active");
       });
