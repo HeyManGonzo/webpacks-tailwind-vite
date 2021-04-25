@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bannerite</title>
     <link href="/src/css/tailwind.css" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -200,18 +201,14 @@
       </div>
     </div>
     <script>
-      let hamburger = document.getElementById("hamburgerbtn");
-      let mobileMenu = document.getElementById("mobileMenu");
-      let mobileMenuLanguage = document.getElementById("mobileMenuLanguage");
-      document.getElementById("hamburgerbtn").addEventListener("click", function () {
+      var hamburger = document.getElementById("hamburgerbtn");
+      var mobileMenu = document.getElementById("mobileMenu");
+      var mobileMenuLanguage = document.getElementById("mobileMenuLanguage");
+      
+        hamburger.addEventListener("click", function () {
         mobileMenu.classList.toggle("active");
         mobileMenuLanguage.classList.toggle("active");
       });
     </script>
-    <script>
-      function myFunction() {
-        document.getElementById("demo").innerHTML = "Hello World";
-      }
-      </script>
   </body>
 </html>
