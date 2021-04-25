@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bannerite!</title>
+    <title>Bannerite</title>
     
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -17,15 +18,14 @@
     data-debug="0" 
     src="/language/language.js">
  </script>
-<!-- <link rel="stylesheet" href="language/language.css"> -->
     <style>
       .active {
-        display: block;
+        display: block !important;
       }
 
     </style>
-  <script type="module" crossorigin src="/assets/index.8b04d8c8.js"></script>
-  <link rel="stylesheet" href="/assets/index.061ae18c.css">
+  <script type="module" crossorigin src="/assets/index.179de7a1.js"></script>
+  <link rel="stylesheet" href="/assets/index.6dbb0929.css">
 </head>
   <body class="p-0 m-0 font-comfortaa">
     <!-- used tutorial nav from https://medium.com/@Mrsimi/responsive-navbar-in-tailwindcss-the-fast-lane-cce11fdf78f7 -->
@@ -38,7 +38,7 @@
           </svg>
         </object>
         <h1 class="md:hidden">web site design</h1>
-          <p id="hamburgerbtn" class="2xl:hidden">
+          <p class="md:hidden" id="hamburgerbtn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -203,10 +203,11 @@
       </div>
     </div>
     <script>
-      let hamburger = document.getElementById("hamburgerbtn");
-      let mobileMenu = document.getElementById("mobileMenu");
-      let mobileMenuLanguage = document.getElementById("mobileMenuLanguage");
-      hamburger.addEventListener("click", function () {
+      var hamburger = document.getElementById("hamburgerbtn");
+      var mobileMenu = document.getElementById("mobileMenu");
+      var mobileMenuLanguage = document.getElementById("mobileMenuLanguage");
+      
+        hamburger.addEventListener("click", function () {
         mobileMenu.classList.toggle("active");
         mobileMenuLanguage.classList.toggle("active");
       });
